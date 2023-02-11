@@ -1,0 +1,11 @@
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 500px;
+  height: 40px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  transition: box-shadow 150ms ease;
+}

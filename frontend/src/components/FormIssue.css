@@ -1,0 +1,24 @@
+.form-control-clickeasy {
+    font-size: 1.5rem;
+    min-height: 150px;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+    color: black;
+  }
+  
+  .form-control-clickeasy:focus {
+    outline: none;
+    border-color: #00ccc7;
+    box-shadow: 0 0 0 0.2rem RGBA(0, 204, 199, 0.25);
+    color: black;
+  }
+  
+  .form-control-clickeasy::placeholder {
+    font-style: italic;
+    color: #495057;
+  }
+  
+  .form-control-clickeasy:focus::placeholder {
+    color: transparent;
+  }
+  

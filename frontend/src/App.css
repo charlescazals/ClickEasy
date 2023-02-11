@@ -1,0 +1,23 @@
+.content {
+  padding-top: 75px;
+}
+
+.fullscreen {
+  min-height: calc(100vh - 75px);
+  min-height: -o-calc(100vh - 75px); /* opera */
+  min-height: -webkit-calc(100vh - 75px); /* google, safari */
+  min-height: -moz-calc(100vh - 75px); /* firefox */
+  padding-bottom: 20px;
+}
+
+.fullscreen-no-scroll {
+  height: calc(100vh - 135px);
+  height: -o-calc(100vh - 135px); /* opera */
+  height: -webkit-calc(100vh - 135px); /* google, safari */
+  height: -moz-calc(100vh - 135px); /* firefox */
+}
+
+
+.pale-blue-background {
+  background-color: #d7fffe;
+}

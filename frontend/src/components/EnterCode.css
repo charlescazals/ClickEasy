@@ -1,0 +1,15 @@
+.enter-code {
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+.enter-code-card {
+    margin: auto;
+    padding-top: 60px;
+    color: #00ccc7;
+}
+
+.code-input-clickeasy {
+    margin: 20px auto auto auto;
+    width: fit-content;
+}

@@ -1,0 +1,88 @@
+.form-btn-stripe {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.StripeElement {
+  width: 500px;
+  background-color: white;
+  height: 40px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.checkout-form {
+  text-align: center;
+  font-family: "Avenir Next";
+}
+
+.checkout-form-card {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 1px 3px 0 #7a7a7a;
+  background-color: white;
+  text-align: center;
+}
+.checkout-form-element {
+  margin: 30px auto;
+}
+
+.checkout-form-element p {
+  margin: 10px 0 0 0;
+  color: #828282;
+}
+
+.pale-green-card {
+  max-width: 95%;
+  background: #d9f8f7;
+  color: #828282;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 25px;
+  border-radius: 3px;
+  margin: 5px auto;
+}
+
+.accepted-payments {
+  max-width: 70%;
+}
+
+.pale-green-card h2 {
+  font-weight: 300;
+  padding-bottom: 3vh;
+  color: #00ccc7;
+}
+
+.pale-green-card h3 {
+  font-weight: 300;
+  padding-bottom: 3vh;
+  font-size: 20px;
+  text-align: left;
+}
+
+.pale-green-card a {
+  color: #00ccc7;
+}

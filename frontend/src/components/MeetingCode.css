@@ -1,0 +1,76 @@
+.meeting-code {
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+.meeting-code-card {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 3px 0 #7a7a7a;
+    background-color: white;
+    text-align: center;
+}
+
+.meeting-code-display {
+    width: 94%;
+    border-radius: 3px;
+    background: #D9F8F7;
+    color: #828282;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 30px;
+    margin: 20px;
+}
+
+.btn-meeting-code {
+    background: #6CE1DF;
+    border-radius: 8px;
+    margin: auto;
+    width: fit-content;
+    padding: 4px 35px;
+
+}
+
+.meeting-code-display h1{
+    color: white;
+    font-weight: 300;
+    font-size: 2.9rem;
+    margin: 0;
+}
+
+.meeting-code-display h2 {
+    color: #00CCC7;
+    font-weight: 500;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+}
+
+.meeting-code-display h3 {
+    color: #00CCC7;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.meeting-code-display h4 {
+    color: #828282;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    margin-bottom:20px
+}
+
+
+.meeting-code-display h5 {
+    color: #828282;
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom:15px
+}
+.meeting-code-display h6 {
+    color: #828282;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+

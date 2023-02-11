@@ -1,0 +1,50 @@
+.banner {
+  color: white;
+  position: relative;
+  display: flex;
+  background-image: url("../img/landing-banner.jpeg");
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  opacity: 85%;
+}
+
+.banner-text {
+  margin: auto;
+  text-align: center;
+  font-family: "Avenir Next";
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-bottom: 3vh;
+}
+
+.banner-text h2 {
+  margin-top: 4vh;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.banner-text h3 {
+  margin-top: 1vh;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.company-presentation {
+  padding: 15vh 15vw;
+  text-align: center;
+  font-family: "Avenir Next";
+}
+
+.company-presentation h2 {
+  color: #00ccc7;
+  font-size: 2.1em;
+  font-weight: 300;
+  margin-bottom: 5vh;
+}

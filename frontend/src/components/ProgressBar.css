@@ -1,0 +1,41 @@
+.progress-row {
+  width: 100%;
+  justify-content: space-between;
+  vertical-align: middle;
+  font-size: 14pt;
+  font-weight: 200;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  color: #a4a4a4;
+}
+
+.block {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.block.active {
+  font-weight: 400;
+}
+
+.nav-arrow {
+  color: #a4a4a4;
+  display: inline-block;
+  margin: 0vw 3vw;
+  text-align: end;
+  height: 100%;
+}
+
+.nav-arrow:hover {
+  color: #00ccc7;
+}
+.nav-arrow:active {
+  color: #039e9c;
+}
+
+.nav-arrow.is-hidden {
+  font-weight: 400;
+  visibility: hidden;
+}

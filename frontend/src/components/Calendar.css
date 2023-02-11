@@ -1,0 +1,140 @@
+.calendar {
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+.container-calendar {
+    margin: auto;
+    color: #00ccc7;
+}
+
+.container-calendar h2 {
+    font-weight: 500;
+    font-size: 2.4em;
+}
+
+.selected-date p {
+    font-size: 1.6em;
+    color: #413f3f;
+    font-weight: 500;
+    margin: 16px 0px
+}
+
+.container-calendar h3 {
+    font-weight: 300;
+    padding-bottom: 3vh;
+}
+
+.calendar-card {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 3px 0 #7a7a7a;
+    background-color: white;
+    text-align: center;
+}
+
+.calendar-element {
+    display: inline-block;
+    margin: 30px;
+}
+
+.calendar-day-col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.day-title {
+    color: #828282;
+    font-weight: 500;
+    width: 88px;
+    margin-bottom: 14px;
+    
+}
+
+li.calendar-day-col {
+    margin: 5px 0px;
+}
+
+.slot-space {
+    background: rgba(0, 204, 199, 0.3);
+    border-radius: 20px;
+    margin: 5px auto;
+    transition: background 0.2s ease;
+    max-width: 58px;
+}
+
+.empty-slot-space {
+    margin: 5px auto;
+    max-width: 58px;
+}
+
+.slot-space:hover {
+    background: #00ccc7;
+}
+
+.slot-space-selected {
+    background: #00ccc7;
+}
+
+.available-slot {
+    height: 28px;
+    cursor: pointer;
+    color: #00ccc7;
+    padding: 2px 5px;
+    font-family: "Avenir Next";
+    font-size: 1em;
+    font-weight: 300;
+    text-shadow: none;
+}
+
+.unavailable-slot {
+    height: 28px;
+    padding: 2px 5px;
+    text-shadow: none;
+    color: #828282;
+}
+
+.available-slot:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.available-slot-selected {
+    color: white;
+}
+
+
+.column-flex {
+    flex-direction: column;
+    display: flex;
+}
+
+.view-more h3 {
+    color: #00ccc7;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+    color: #00ccc7;
+    cursor: pointer;
+}
+
+.needed-skills {
+    max-width: 350px;
+    background: #D9F8F7;
+    color: #828282;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.needed-skill {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 40px;
+
+}

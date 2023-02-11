@@ -1,0 +1,13 @@
+.navbar-clickeasy {
+  position: fixed;
+  z-index: 2;
+  padding: 5px 40px;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px
+}
+
+.logo {
+  height: 60px;
+  max-width: 50vw; /* for extra narrow screens ex. Galaxy Fold */
+}
